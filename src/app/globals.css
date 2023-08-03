@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/*
+body {
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to top right, #b1bab0, #FFFFFF, #b1bab0);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+*/
+body {
+  height: 100vh;
+  margin: 0;
+  background: url("/images/bg-blured.png") no-repeat center, linear-gradient(to top right, #b1bab0, #FFFFFF, #b1bab0);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+/*
+.bg-desktop {
+  background-image: url('/images/bg-mobile.webp');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.bg-mobile {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url('/images/bg-desktop.webp');
+}
+*/
+
+/*
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+*/
